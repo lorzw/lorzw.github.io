@@ -1,0 +1,147 @@
+html,
+body {
+  background-color: #112d4e;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  min-height: 100%;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f9f7f7;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+/* Navbar */
+nav {
+  border-bottom: 3px solid black;
+}
+
+.nav-link {
+  color: #dbe2ef;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  border-top: 3px solid black;
+  bottom: 0;
+  padding: 2% 7%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-links {
+  color: #f9f7f7;
+  font-size: 1.5rem;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+/* Home Page */
+.title-page {
+  padding: 10%;
+  text-align: center;
+}
+
+.title {
+  font-size: 6rem;
+  margin-bottom: 3%;
+}
+
+.title-sub {
+  color: #dbe2ef;
+  font-family: "Roboto", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 5%;
+}
+
+.home-pic {
+  border: 2px solid black;
+  margin-bottom: 20%;
+  width: 100%;
+}
+
+/* About Page */
+.about-page {
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+
+.about-pic {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.about-title {
+  font-size: 5rem;
+  margin-bottom: 3%;
+}
+
+.about-desc {
+  color: #dbe2ef;
+  font-family: "Roboto", serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* Experience Page */
+.experience-page {
+  padding-bottom: 10%;
+}
+
+.experience-title {
+  font-size: 5rem;
+  margin: 3% auto; 
+  text-align: center;
+}
+
+.experience {
+  padding: 3%;
+}
+
+.logo {
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5%;
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    text-align: center;
+  }
+
+  .logo {
+    float: none;
+    margin: 3% 0;
+  };
+}
+
+.company {
+  font-weight: 700;
+}
+
+.experience-desc {
+  color: #dbe2ef;
+  font-family: "Roboto", serif;
+  font-size: 1.25rem;
+  font-weight: 300; 
+}
